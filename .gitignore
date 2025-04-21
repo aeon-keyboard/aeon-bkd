@@ -1,0 +1,35 @@
+## Ignore build results
+bin/
+obj/
+*.exe
+*.dll
+*.app
+*.log
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / VSCode
+.idea/
+.vscode/
+
+## ASP.NET publish folder
+wwwroot/
+
+## Docker
+docker-compose.override.yml
+
+## Secrets
+secrets.json
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+## Others
+*.DS_Store
+Thumbs.db

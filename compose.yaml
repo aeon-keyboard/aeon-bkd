@@ -1,0 +1,7 @@
+﻿services:
+  aeon-bkd:
+    image: aeon-bkd
+    build:
+      context: .
+      dockerfile: aeon-bkd/Dockerfile
+

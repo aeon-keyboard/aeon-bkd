@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aeon.API", "Aeon.API\Aeon.API.csproj", "{1A4FDDB8-9B61-4997-AE75-3403ACB1B907}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{54C8D4AD-CC87-40A4-AC38-A2E81CA397F6}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aeon.Application", "Aeon.Application\Aeon.Application.csproj", "{79D59C00-2F57-4BDA-81EC-3E089731D556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aeon.Domain", "Aeon.Domain\Aeon.Domain.csproj", "{500B64C7-5FC3-49A5-A470-89B777EE0FD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aeon.Infra", "Aeon.Infra\Aeon.Infra.csproj", "{34469307-410C-4BAF-9D3E-D20BB2DE7AFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A4FDDB8-9B61-4997-AE75-3403ACB1B907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4FDDB8-9B61-4997-AE75-3403ACB1B907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4FDDB8-9B61-4997-AE75-3403ACB1B907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4FDDB8-9B61-4997-AE75-3403ACB1B907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D59C00-2F57-4BDA-81EC-3E089731D556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D59C00-2F57-4BDA-81EC-3E089731D556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D59C00-2F57-4BDA-81EC-3E089731D556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D59C00-2F57-4BDA-81EC-3E089731D556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{500B64C7-5FC3-49A5-A470-89B777EE0FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500B64C7-5FC3-49A5-A470-89B777EE0FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500B64C7-5FC3-49A5-A470-89B777EE0FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500B64C7-5FC3-49A5-A470-89B777EE0FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34469307-410C-4BAF-9D3E-D20BB2DE7AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34469307-410C-4BAF-9D3E-D20BB2DE7AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34469307-410C-4BAF-9D3E-D20BB2DE7AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34469307-410C-4BAF-9D3E-D20BB2DE7AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
