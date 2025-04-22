@@ -19,11 +19,20 @@ obj/
 ## ASP.NET publish folder
 wwwroot/
 
+## Ngnix
+nginx/
+
+## CertBot
+certbot
+
 ## Docker
 docker-compose.override.yml
 
 ## Secrets
 secrets.json
+
+## Delicate Shels
+init-letsencrypt.sh
 
 ## NuGet
 *.nupkg

@@ -20,4 +20,8 @@ RUN dotnet publish "./aeon-bkd.csproj" -c $BUILD_CONFIGURATION -o /app/publish /
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "aeon-bkd.dll"]
+
+COPY check-secrets.sh /app/
+COPY docker-entrypoint.sh /app/
+RUN chmod +x /app/check-secrets.sh /app/docker-entrypoint.sh
+ENTRYPOINT ["/app/docker-entrypoint.sh"]
