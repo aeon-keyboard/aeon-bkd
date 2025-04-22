@@ -8,7 +8,7 @@ public abstract class Binding
     public abstract string GenerateZmkCode();
 }
 
-public abstract record Position(int Row, int Col);
+public record Position(int Row, int Col);
 
 public class SimpleKeyBinding : Binding
 {
