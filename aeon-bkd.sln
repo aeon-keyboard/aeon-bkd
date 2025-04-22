@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aeon.Domain", "Aeon.Domain\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aeon.Infra", "Aeon.Infra\Aeon.Infra.csproj", "{34469307-410C-4BAF-9D3E-D20BB2DE7AFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aeon.Tests", "Aeon.Tests\Aeon.Tests.csproj", "{FEBC7916-8410-41EF-91C6-DA3A9FA3343C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,5 +37,9 @@ Global
 		{34469307-410C-4BAF-9D3E-D20BB2DE7AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34469307-410C-4BAF-9D3E-D20BB2DE7AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34469307-410C-4BAF-9D3E-D20BB2DE7AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEBC7916-8410-41EF-91C6-DA3A9FA3343C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBC7916-8410-41EF-91C6-DA3A9FA3343C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBC7916-8410-41EF-91C6-DA3A9FA3343C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBC7916-8410-41EF-91C6-DA3A9FA3343C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
