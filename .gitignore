@@ -29,7 +29,7 @@ certbot
 docker-compose.override.yml
 
 ## Secrets
-secrets.json
+.env
 
 ## Delicate Shels
 init-letsencrypt.sh
